@@ -13,7 +13,7 @@ WINDOW_HEIGHT = 600
 
 # Window title (caption)
 # Update the window title as needed
-TITLE = 'Solar System'
+TITLE = 'Solar System (Not Really)'
 
 # Frame rate (frames per second)
 FPS = 60
