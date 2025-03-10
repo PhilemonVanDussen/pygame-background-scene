@@ -94,7 +94,10 @@ def main():
         random_col = random.randrange(255), random.randrange(255), random.randrange(255)
         draw_text(screen, 'PJ VANDUSSSEN', text_font, random_col, 300, 150)
 
-
+        font = pygame.font.Font(None, 25)
+        x, y = pygame.mouse.get_pos()
+        text = font.render(f'Position: ({x}, {y})', True, (255, 255, 255))
+        screen.blit(text, (20, 20))
         pygame.display.flip()
 
         # Limit the frame rate to the specified frames per second
