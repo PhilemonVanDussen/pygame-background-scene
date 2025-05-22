@@ -88,7 +88,7 @@ def main():
         draw_circles(screen, (51, 0, 102), (600, 150), 30, 0)
         draw_line(screen, (255, 255, 0), (575, 470), (665, 470), 8)
         draw_circles(screen, (128, 128, 128), (120, 175), 20, 0 )
-
+        
         # Text
         text_font = pygame.font.SysFont('Arial', 30)
         random_col = random.randrange(255), random.randrange(255), random.randrange(255)
